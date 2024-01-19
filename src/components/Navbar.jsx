@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="container nav_container">
-                <Link to='/'>
+                <Link to='/' className='logo'>
                     <img src={logo} alt="NavLogo" />
                 </Link>
 
@@ -20,7 +20,7 @@ const Navbar = () => {
                         links.map(({ name, path }, index) => {
                             return (
                                 <li key={index}>
-                                    <NavLink to={path}>{name}</NavLink>
+                                    <NavLink to={path} className={({ isActive }) => isActive ? 'active-nav' : ''}>{name}</NavLink>
                                 </li>
                             )
                         })
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </ul>
 
                 <button className="nav_toggle-btn">
-                <FaBars />
+                    <FaBars />
                 </button>
             </div>
         </nav>

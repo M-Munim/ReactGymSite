@@ -13,7 +13,6 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <h1>HI</h1>
       <Home></Home>
       <About></About>
       <Contact></Contact>

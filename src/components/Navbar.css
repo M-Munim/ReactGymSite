@@ -1,0 +1,62 @@
+nav {
+    height: 5rem;
+    width: 100vw;
+    background: var(--color-primary);
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+/* md and sm screen */
+
+.nav_toggle-btn {
+    display: none;
+}
+
+.nav_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.nav_links {
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+}
+
+.nav_links a {
+    transition: var(--transition);
+}
+
+.nav_links a:hover {
+    color: var(--color-secondary);
+}
+
+.active-nav {
+    position: relative;
+}
+
+.active-nav::after {
+    content: '';
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: red;
+    position: absolute;
+    left: calc(52%- 0.6rem);
+    transform: rotate(45deg);
+    margin-top: 0.9rem;
+    margin-left: 10px;
+}
+
+/* 1:01:00 */
