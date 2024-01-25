@@ -85,3 +85,36 @@ export const values = [
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     },
 ]
+
+export const faqs = [
+    {
+        id: 1,
+        question: "How often should I exercise",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet, quae suscipit odit reprehenderit beatae molestias alia.",
+    },
+    {
+        id: 2,
+        question: "How often should I exercise",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet, quae suscipit odit reprehenderit beatae molestias alia.",
+    },
+    {
+        id: 3,
+        question: "How often should I exercise",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet, quae suscipit odit reprehenderit beatae molestias alia.",
+    },
+    {
+        id: 4,
+        question: "How often should I exercise",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet, quae suscipit odit reprehenderit beatae molestias alia.",
+    },
+    {
+        id: 5,
+        question: "How often should I exercise",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet, quae suscipit odit reprehenderit beatae molestias alia.",
+    },
+    {
+        id: 6,
+        question: "How often should I exercise",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet, quae suscipit odit reprehenderit beatae molestias alia.",
+    },
+]
