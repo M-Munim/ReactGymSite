@@ -6,8 +6,27 @@ import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from "react-icons
 import { testimonials } from "../data"
 
 const Testimonials = () => {
-    const [index, setIndex] = useState(1)
+    const [index, setIndex] = useState(0)
     const { name, quote, job, avatar } = testimonials[index]
+
+
+    // button functionalities
+    const prevTestimonialHandler = () => {
+        setIndex(prev => prev - 1)
+
+        if (index <= 0) {
+            setIndex(testimonials.length - 1)
+        }
+    }
+
+
+    const nextTestimonialHandler = () => {
+        setIndex(prev => prev + 1)
+
+        if (index >= testimonials.length - 1) {
+            setIndex(0)
+        }
+    }
 
     return (
         <section className="testimonials">
@@ -29,8 +48,8 @@ const Testimonials = () => {
                 </Card>
 
                 <div className="testimonials_btn-container">
-                    <button className="testimonials_btn"><IoIosArrowDropleftCircle /></button>
-                    <button className="testimonials_btn"><IoIosArrowDroprightCircle /></button>
+                    <button className="testimonials_btn" onClick={prevTestimonialHandler}><IoIosArrowDropleftCircle /></button>
+                    <button className="testimonials_btn" onClick={nextTestimonialHandler}><IoIosArrowDroprightCircle /></button>
                 </div>
             </div>
         </section>

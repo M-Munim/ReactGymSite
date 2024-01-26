@@ -132,25 +132,25 @@ export const testimonials = [
         // avatar: require("./assets/Logo.png")
     }, {
         id: 2,
-        name: "Diana Ayi",
+        name: "Diana gae",
         quote: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sequi minus ab atque reprehenderit praesentium repellat id perspiciatis ipsum eligendi obcaecati, harum fugiat odio reiciendis. Nostrum debitis unde eum architecto?",
         job: "Student",
         // avatar: require("./assets/Logo.png")
     }, {
         id: 3,
-        name: "Diana Ayi",
+        name: "Diana phir aai",
         quote: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sequi minus ab atque reprehenderit praesentium repellat id perspiciatis ipsum eligendi obcaecati, harum fugiat odio reiciendis. Nostrum debitis unde eum architecto?",
         job: "Student",
         // avatar: require("./assets/Logo.png")
     }, {
         id: 4,
-        name: "Diana Ayi",
+        name: "Diana phir gae",
         quote: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sequi minus ab atque reprehenderit praesentium repellat id perspiciatis ipsum eligendi obcaecati, harum fugiat odio reiciendis. Nostrum debitis unde eum architecto?",
         job: "Student",
         // avatar: require("./assets/Logo.png")
     }, {
         id: 5,
-        name: "Diana Ayi",
+        name: "Diana pakki gae",
         quote: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sequi minus ab atque reprehenderit praesentium repellat id perspiciatis ipsum eligendi obcaecati, harum fugiat odio reiciendis. Nostrum debitis unde eum architecto?",
         job: "Student",
         // avatar: require("./assets/Logo.png")

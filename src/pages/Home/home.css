@@ -179,8 +179,44 @@
     border-radius: 1.5rem;
     overflow: hidden;
     position: absolute;
+    border: 2px solid transparent;
     top: -2rem;
     left: calc(50% - 2rem);
     box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, 0.4);
     transition: var(--transition);
+}
+
+.testimonial:hover .testimonial_avatar {
+    border-radius: 50%;
+    border-color: var(--color-gray-400);
+}
+
+.testimonial_quote {
+    font-style: italic;
+    margin: 1rem 0 2rem;
+}
+
+.card small.testimonial_title {
+    margin-top: 0.3rem;
+}
+
+.testimonials_btn-container {
+    width: fit-content;
+    margin: 2.5rem auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonials_btn {
+    background: transparent;
+    cursor: pointer;
+}
+
+.testimonials_btn svg {
+    fill: var(--color-primary);
+    font-size: 1.8rem;
+    width: 3rem;
+    height: 3rem;
 }
