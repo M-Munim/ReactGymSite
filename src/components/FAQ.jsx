@@ -3,7 +3,7 @@ import { AiOutlineMinus } from 'react-icons/ai'
 import { AiOutlinePlus } from 'react-icons/ai'
 
 const FAQ = ({ question, answer }) => {
-    const [isAnsShowing, setIsAnsShowing] = useState(true)
+    const [isAnsShowing, setIsAnsShowing] = useState(false)
     return (
         <article className='faq' onClick={() => setIsAnsShowing(prev => !prev)}>
             <div>

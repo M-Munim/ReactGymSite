@@ -4,6 +4,7 @@ import MainHeader from '../../components/MainHeader'
 import Program from '../../components/Program'
 import Values from '../../components/Values'
 import FAQs from '../../components/FAQs'
+import Testimonials from '../../components/Testimonials'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Program />
       <Values />
       <FAQs />
+      <Testimonials />
     </>
   )
 }
