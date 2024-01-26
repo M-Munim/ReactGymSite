@@ -19,7 +19,6 @@ const Testimonials = () => {
         }
     }
 
-
     const nextTestimonialHandler = () => {
         setIndex(prev => prev + 1)
 
