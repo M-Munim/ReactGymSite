@@ -284,3 +284,127 @@ footer {
     border-top: 2px solid var(--color-primary-variant);
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 1024px) {
+
+    /* Header */
+    .main_header {
+        height: fit-content;
+        padding: 12rem 0;
+    }
+
+    .main_header-container {
+        gap: 0;
+    }
+
+    .main_header-circle {
+        width: 1.6rem;
+        height: 16rem;
+    }
+
+    /* programs */
+    .programs_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* values */
+    .values_container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .values_wrapper {
+        gap: 4rem 3rem;
+    }
+
+    .values_image {
+        display: none;
+    }
+
+    /* faq */
+
+    .faqs_wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    /* testi */
+    .testimonials {
+        width: 75%;
+    }
+
+    /* footer */
+    .footer_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main_header {
+        margin-top: 0;
+        padding: 12rem 0 0;
+        height: 100vh;
+    }
+
+    .main_header-image,
+    .main_header-circle {
+        display: none;
+    }
+
+    .main_header-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* programs */
+    .programs_wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .programs_program {
+        width: 84%;
+        margin: 0 auto;
+    }
+
+    /* values */
+    .values_wrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .card.values_value {
+        width: 84%;
+        margin-inline: auto;
+    }
+
+    /* faqs */
+    .faqs_wrapper {
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    /* testi */
+    .testimonials {
+        width: 100%;
+    }
+
+    /* footer */
+    footer {
+        margin-top: 7rem;
+    }
+
+    .footer_container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .footer_container article {
+        align-items: center;
+    }
+
+    .footer_container article p{
+        text-align: center;
+    }
+}
