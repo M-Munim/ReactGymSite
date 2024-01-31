@@ -7,6 +7,7 @@ import Trainers from "./pages/Trainers/Trainers"
 import NotFound from "./pages/NotFound/NotFound"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -24,13 +25,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-      {/* <Home></Home>
-      <About></About>
-      <Contact></Contact>
-      <Gallery></Gallery>
-      <Plans></Plans>
-      <Trainers></Trainers>
-      <NotFound></NotFound> */}
+      <Footer />  
     </BrowserRouter>
   )
 }
