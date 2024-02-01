@@ -46,18 +46,13 @@
     border-radius: 50%;
     position: absolute;
     transition: var(--transition);
+    filter: blur(10px);
 }
 
 .main_header-image {
     position: relative;
     /* width: 18rem; */
 }
-
-.main_header-right:hover .main_header-circle {
-    filter: blur(10px);
-}
-
-
 /* programs */
 
 .programs {
@@ -298,8 +293,8 @@ footer {
     }
 
     .main_header-circle {
-        width: 1.6rem;
-        height: 16rem;
+        width: 20rem;
+        height: 20rem;
     }
 
     /* programs */

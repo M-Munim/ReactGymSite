@@ -1,9 +1,36 @@
 import React from 'react'
+import Header from '../../components/Header'
+import img from "../../assets/headerImg.jpg"
+import { trainers } from '../../data'
+import { FaInstagram } from "react-icons/fa6";
+import { AiOutlineTwitter } from 'react-icons/ai'
+import { FaFacebookF } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
 import './trainers.css'
+import Trainer from '../../components/Trainer'
 
 const Trainers = () => {
   return (
-    <div>Trainers</div>
+    <>
+      <Header title="Our Trainers" image={img}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quam voluptatibus possimus iure nihil nesciunt rem aut, voluptates dignissimos optio quis hic ducimus.
+      </Header>
+
+      <section className="trainers">
+        <div className="container trainers_container">
+          {
+            trainers.map(({ id, image, name, job, socials }) => {
+             return <Trainer key={id} image={image} name={name} job={job} socials={[
+                { icon: <FaInstagram />, link: socials[0] },
+                { icon: <AiOutlineTwitter />, link: socials[1] },
+                { icon: <FaFacebookF />, link: socials[2] },
+                { icon: <FaLinkedin />, link: socials[3] },
+              ]} />
+            })
+          }
+        </div>
+      </section>
+    </>
   )
 }
 
